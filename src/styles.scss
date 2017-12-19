@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'variables';
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+video#my-video {
+  position: absolute;
+  width: 20%;
+  right: 0%;
+  bottom: 0%;
+}
